@@ -25,6 +25,7 @@ console.log(sumOfDigits(100));
 */
 
 function numberOfDigits(num){
+    num = Math.abs(num)
     let count = 0;
     do{
 
@@ -36,4 +37,4 @@ function numberOfDigits(num){
     return count++;
 }
 
-console.log(numberOfDigits(145972));
+console.log(numberOfDigits(-145972));
