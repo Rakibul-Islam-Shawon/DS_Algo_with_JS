@@ -17,3 +17,23 @@ function sumOfDigits(num){
 }
 
 console.log(sumOfDigits(100));
+
+/* Question 3: count the number of digits of a number
+
+34252 = 5
+
+*/
+
+function numberOfDigits(num){
+    let count = 0;
+    do{
+
+        num = Math.floor(num / 10);
+        count++;
+
+    }while(num > 0);
+
+    return count++;
+}
+
+console.log(numberOfDigits(145972));
