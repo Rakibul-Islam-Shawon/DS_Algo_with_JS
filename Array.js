@@ -1,3 +1,3 @@
-let arr = [1,2,3];
+let arr = [1,2,3,"Nice", 2.3,{name: "Rakib"}, [2,3]];
 
-console.log(arr[2]);
+console.log(arr[5].name);
