@@ -15,3 +15,15 @@ let firstElement = arr[0];
 let lastElement = arr[arrLength-1];
 
 console.log(firstElement, lastElement[0]);
+
+//How to remove our last element of an array
+
+const lastElement1 = arr.pop();
+
+console.log(arr, lastElement1);
+
+//How to add element in array
+
+arr.push(300);
+
+console.log(arr)
