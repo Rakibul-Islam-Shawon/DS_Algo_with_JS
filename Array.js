@@ -31,4 +31,9 @@ arr.push(10);
 arr.unshift(100);
 arr.shift();
 
-console.log(arr)
+
+//foreach used for looping.
+
+arr.forEach((x,i)=> {
+    console.log(x,arr[i]);
+})
