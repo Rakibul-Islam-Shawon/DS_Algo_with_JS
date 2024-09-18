@@ -29,5 +29,6 @@ arr.push(23.3);
 arr.push(10);
 
 arr.unshift(100);
+arr.shift();
 
 console.log(arr)
