@@ -28,4 +28,6 @@ arr.push(300);
 arr.push(23.3);
 arr.push(10);
 
+arr.unshift(100);
+
 console.log(arr)
