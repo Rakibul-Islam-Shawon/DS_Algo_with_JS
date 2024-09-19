@@ -12,7 +12,7 @@ console.log(arr[5].name);
 //access of first element and last element of an array
 
 let firstElement = arr[0];
-let lastElement = arr[arrLength-1];
+let lastElement = arr[arrLength-1]; // process of finding last element
 
 console.log(firstElement, lastElement[0]);
 
