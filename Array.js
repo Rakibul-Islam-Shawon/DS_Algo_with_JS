@@ -38,3 +38,7 @@ arr.shift();
 arr.forEach((x,i)=> {
     console.log(x,arr[i]);
 })
+
+// 
+
+console.log(arr);
