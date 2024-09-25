@@ -6,7 +6,7 @@ let arrLength = arr.length;
 console.log(arrLength);
 
 
-console.log(arr[5].name);
+console.log(arr[2].name);
 
 
 //access of first element and last element of an array
