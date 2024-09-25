@@ -26,7 +26,7 @@ console.log(arr, lastElement1);
 
 arr.push(300);
 arr.push(23.3);
-arr.push(10);
+arr.push(2000);
 
 arr.unshift(1000);
 arr.shift();
