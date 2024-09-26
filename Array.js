@@ -49,3 +49,18 @@ console.log(arr);
 for(let x of arr){
     console.log(x);
 }
+
+
+//finding an element in Array
+
+const findElement = (arr, target) => {
+    for(let x of arr){
+        if( x === target){
+            return true;
+        }
+    }
+    return false;
+}
+
+console.log(findElement(arr, "Hello"));
+console.log(findElement(arr, "Nice"));
