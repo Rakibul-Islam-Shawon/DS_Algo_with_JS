@@ -64,3 +64,16 @@ const findElement = (arr, target) => {
 
 console.log(findElement(arr, "Hello"));
 console.log(findElement(arr, "Nice"));
+
+
+const findElementIndex = (arr, target) => {
+    for(let i=0; i < arr.length; i++){
+        if(arr[i] === target){
+            return i;
+        }
+    }
+    return -1;
+}
+
+console.log(findElementIndex(arr, "Nice"));
+console.log(findElementIndex(arr, 2));
