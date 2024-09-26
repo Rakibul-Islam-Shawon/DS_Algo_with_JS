@@ -42,3 +42,10 @@ arr.forEach((x,i)=> {
 // 
 
 console.log(arr);
+
+
+//Aother looping process
+
+for(let x of arr){
+    console.log(x);
+}
