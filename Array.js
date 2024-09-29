@@ -77,3 +77,12 @@ const findElementIndex = (arr, target) => {
 
 console.log(findElementIndex(arr, "Nice"));
 console.log(findElementIndex(arr, 2));
+
+
+//How to add two array
+
+const newArrA = [1, 2, 4, "Name"];
+const newArrB = [5, 6, 7, "nine"];
+
+const newArr = newArrA.concat(newArrB);
+console.log(newArr);
