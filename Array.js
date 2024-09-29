@@ -90,19 +90,21 @@ console.log(newArr);
 
 // How can we check if two arrays are equal
 
-const isArrayEqual = (newArrA, newArrB) => {
-    if (newArrA.length !== newArrB.length){
-        return false;
-    }
+const isArrayEqual = (ArrA, ArrB) => {
+    // if (newArrA.length !== newArrB.length){
+    //     return false;
+    // }
 
-    for(let i = 0; i< newArrA.length; i++){
-        if(newArrA[i] !== newArrB[i]){
-            return false;
-        }
-    }
+    // for(let i = 0; i< newArrA.length; i++){
+    //     if(newArrA[i] !== newArrB[i]){
+    //         return false;
+    //     }
+    // }
 
-    return true;
+    // return true;
+
+    return ( ArrA.length === ArrB.length && ArrA.every((ele, i) => ArrA[i] === ArrB[i]))
 }
 
 
-console.log(isArrayEqual(newArrA, newArrB));
+console.log(isArrayEqual([1,2,3], [1,2,3]));
