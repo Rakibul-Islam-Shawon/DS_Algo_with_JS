@@ -86,3 +86,23 @@ const newArrB = [5, 6, 7, "nine"];
 
 const newArr = newArrA.concat(newArrB);
 console.log(newArr);
+
+
+// How can we check if two arrays are equal
+
+const isArrayEqual = (newArrA, newArrB) => {
+    if (newArrA.length !== newArrB.length){
+        return false;
+    }
+
+    for(let i = 0; i< newArrA.length; i++){
+        if(newArrA[i] !== newArrB[i]){
+            return false;
+        }
+    }
+
+    return true;
+}
+
+
+console.log(isArrayEqual(newArrA, newArrB));
