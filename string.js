@@ -12,3 +12,7 @@
 const name_a = "W3Schools";
 let letter = name_a.at(2);
 console.log(letter);
+
+let text = "Apple, Banana, Kiwi";
+let part = text.slice(-12, -6);
+console.log(part);
