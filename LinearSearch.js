@@ -11,3 +11,6 @@ var list =  [12, 45, 48, 5, 451, 2,34 ,43,54,66 ]
 var value = 2;
 
 console.log(linearSearch(list , value)); // result should 5
+
+value = 43;
+console.log(linearSearch(list , value)); // result should 5
