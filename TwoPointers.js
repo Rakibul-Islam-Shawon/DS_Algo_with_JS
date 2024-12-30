@@ -30,3 +30,7 @@ if (twoSum(arr, target))
     console.log("true");
 else 
     console.log("false");
+
+
+
+    //collected from geeksforgeeks
