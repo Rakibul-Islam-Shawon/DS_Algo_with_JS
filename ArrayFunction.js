@@ -9,7 +9,12 @@ console.log(fruitsAll.join(" * "));
 
 
 //Array
-const newFruits = ["Apple", "Orange", "Apple", "Mango"];
-let position = newFruits.indexOf("Orange") + 1;
+// const newFruits = ["Apple", "Orange", "Apple", "Mango"];
+// let position = newFruits.indexOf("Orange") + 1;
 
+// console.log(position);
+
+
+const newFruits = ["Apple", "Orange", "Apple", "Mango"];
+let position = newFruits.lastIndexOf("Apple") + 1;
 console.log(position);
