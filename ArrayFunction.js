@@ -3,6 +3,13 @@ console.log(fruits.includes("Mango"));
 
 
 
-
+//Join
 const fruitsAll = ["Banana", "Orange", "Apple", "Mango","nashpati","Watermelon"];
 console.log(fruitsAll.join(" * "));
+
+
+//Array
+const newFruits = ["Apple", "Orange", "Apple", "Mango"];
+let position = newFruits.indexOf("Apple") + 1;
+
+console.log(position);
