@@ -24,3 +24,7 @@ let courses = ["HTML", "CSS", "JavaScript", "React"];
 
 // Accessing the Array Length
 console.log(courses.length);
+
+let str = courses.toString();
+
+console.log(str);
