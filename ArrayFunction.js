@@ -18,3 +18,9 @@ console.log(position);
 const newFruits1 = ["Apple", "Orange", "Apple", "Mango"];
 let position1 = newFruits1.lastIndexOf("Apple") + 1;
 console.log(position1);
+
+
+let courses = ["HTML", "CSS", "JavaScript", "React"];
+
+// Accessing the Array Length
+console.log(courses.length);
