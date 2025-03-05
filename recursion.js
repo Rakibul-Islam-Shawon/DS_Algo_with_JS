@@ -1,6 +1,10 @@
-function fun (){
+function fun (n){
+
+    if(n == 0){
+        return;
+    }
     console.log("fun");
-    fun();
+    fun(n-1);
 }
 
-fun();
+fun(10);
