@@ -8,10 +8,21 @@ function reverse(str){
 
   let reversed = "";
 
-  for (let i=0; i<str.length; i++){
+  //Usual process of solving this problem
 
-    reversed = str[i] + reversed;
-  }
+  // for (let i=0; i<str.length; i++){
+
+  //   reversed = str[i] + reversed;
+  // }
+
+
+  // This one is more simpler 
+
+  for (let char of str){
+
+      reversed = char + reversed;
+    }
+
 
   return reversed;
 }
